@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fullpage</title>
+    <link rel="stylesheet" href="jquery.pagepiling.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet"> 
+    
+</head>
+
+<body>
+    
+    <div id="pagepiling">
+        <div class="section sec1">
+            <div class="left-img1">
+                <div class="overlay"></div>
+            </div>
+           
+            <div class="right">
+                <p class="theme">Feel Diferent</p>
+                <h1 class="header">Road to Everywhere</h1>
+                <p class="para"> But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+                <a href="" class="link">Read more</a>
+            </div>
+        </div>
+        <div class="section sec2">
+            <div class="left-img2"></div>
+            <div class="right">
+                <p class="theme">adventure</p>
+                <h1 class="header">Spring Falls</h1>
+                <p class="para">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and </p>
+                <a href="" class="link">Read more</a>
+            </div>
+        </div>
+        <div class="section sec3">
+            <div class="left-img3"></div>
+            <div class="right">
+                <p class="theme">Relax in Nicaragua</p>
+                <h1 class="header">Corn Island  </h1>
+                <p class="para">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire</p>
+                <a href="" class="link">Read more</a>
+            </div>
+        </div>
+        <div class="section sec4">
+            <div class="left-img4"></div>
+            <div class="right">
+                <p class="theme">travel</p>
+                <h1 class="header">Caboledo</h1>
+                <p class="para">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
+                <a href="" class="link">Read more</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js" integrity="sha256-rcU19aswtHEi8sO/TRfnTaLpdi+bvMAETOY9lKSKv5E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.js" integrity="sha256-mHpdyWVysGvDFzjPuPCWGZ3MYQVln9llIMX+19i46wY=" crossorigin="anonymous"></script>
+    <script>
+       $(document).ready(function() {
+	    $('#pagepiling').pagepiling({
+        menu: null,
+        direction: 'vertical',
+        verticalCentered: false,
+        scrollingSpeed: 100,
+        easing: 'linear',
+        navigation: {
+            'position': 'right',
+            'textColor': '#fff',
+            'bulletsColor': '#fff',
+            
+        },
+    });
+});
+    
+    </script>
+</body>
+</html>
+<!--  -->
