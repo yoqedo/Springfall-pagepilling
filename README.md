@@ -1,5 +1,2 @@
 # Springfall-pagepilling
-asdföalksjdf
-ladjsfk
-asdfjlköajsdfljösadf
-asdflkjaskdjfklasjdfkljasdf
+This Webpage i us pagepilling js (https://alvarotrigo.com/pagePiling/)
